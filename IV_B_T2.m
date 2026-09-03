@@ -1,5 +1,5 @@
 % Read data from Excel
-T = readmatrix('IV_B_T2.xlsx');  % Replace with your filename
+T = readmatrix('Fig.4(e).xlsx');  % Replace with your filename
 
 % Define B fields (Tesla)
 B_fields = [-1, -0.85, -0.75, -0.6, -0.5, -0.45, -0.4, -0.35, -0.3, -0.25, -0.2, -0.175, -0.15, -0.125, -0.1, -0.075, -0.05, -0.02, 0, 0.02, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.6, 0.75, 0.85, 1];
